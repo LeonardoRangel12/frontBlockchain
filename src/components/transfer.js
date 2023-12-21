@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import axios from 'axios';
-import {connect} from './connect';
+import connect from './connect';
 import {disconnectWallet} from './wallet';
 import backendEndpoint from '../global';
 const transfer = async() =>{
